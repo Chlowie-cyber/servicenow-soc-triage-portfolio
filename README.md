@@ -42,7 +42,7 @@ Across **18 distinct security incidents** (`INC0010001`–`INC0010018`), I simul
 | **INC0010011** | Credential Dumping (LSASS) | Hardware | In Progress | Hardware | Suspended malicious process tree; isolated host via EDR. |
 | **INC0010012** | Phishing Payload / Macro Execution | Software | Resolved | Software | Weaponized document purged; host reimaged per SOC playbook. |
 | **INC0010013** | Mass Ransomware File Renaming | Hardware | In Progress | Hardware | Disconnected network share; terminated unauthorized encryption process. |
-| **INC0010014** | Shadow Copy Deletion (Ransomware) | Hardware | In Progress | Hardware | Isolated file server; disabled compromised admin account; escalated to IR. |
+| **INC0010014** | Scheduled Backup Task | Inquiry / Help | New | (empty) | New alert logged; pending initial SOC assignment and review. |
 | **INC0010015** | Rogue Wireless Access Point | Network | Resolved | Network | Unsanctioned travel router physically removed; switch port disabled. |
 | **INC0010016** | Zero-Day SaaS API Exploit | Software | On Hold | Software | On Hold (Awaiting Vendor). Disabled API integration; logged vendor ticket. |
 | **INC0010017** | SSH Brute-Force / Password Spray | Database | Resolved | Database | Attacking IP blocked at firewall; forced SSH key authentication across cluster. |
